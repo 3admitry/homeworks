@@ -63,6 +63,8 @@ function HW4() {
                     some text {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
+
+
                 {/*// onChange тоже должен работать*/}
                 <SuperCheckbox checked={checked} onChange={testOnChange}/>
             </div>
