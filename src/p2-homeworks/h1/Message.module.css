@@ -1,0 +1,47 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin: 1rem 0 0 1rem;
+}
+
+.avatar {
+    flex: 0 1 65px;
+}
+
+.avatar img {
+    width: 50px;
+}
+
+.boxMessage {
+    flex: 0 1 165px;
+    background: #022d39;
+    padding: 0.5rem;
+
+    position: relative;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.boxMessage:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 175px;
+    width: 21px;
+    height: 17px;
+    background: radial-gradient(circle at top left, transparent 58%, #022d39 60%);
+}
+
+.name {
+    color: #993583;
+}
+
+.text {
+    color: #fff;
+}
+
+.time {
+    float: right;
+    font-size: 0.9rem;
+    color: #979797;
+}

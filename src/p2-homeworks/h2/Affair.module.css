@@ -1,0 +1,18 @@
+.affairbox {
+
+}
+.affairbox .name{
+margin-right: .5rem;
+}
+.affairbox .priority{
+    margin-right: 1rem;
+}
+.low{
+color: green;
+}
+.middle{
+color: dodgerblue;
+}
+.high{
+color: red;
+}
