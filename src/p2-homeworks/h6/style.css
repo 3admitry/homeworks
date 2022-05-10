@@ -1,0 +1,13 @@
+.beautiful {
+    position: relative;
+}
+.beautiful:after {
+    content: ' ';
+    width: 15px;
+    height: 15px;
+    background: url(https://www.svgrepo.com/show/56967/edit.svg);
+    position: absolute;
+    background-size: 15px 15px;
+    top: 4px;
+    right: -18px;
+}
